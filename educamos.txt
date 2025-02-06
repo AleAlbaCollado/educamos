@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma Educativa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenido a la Plataforma Educativa</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#calificaciones">Calificaciones</a></li>
+                <li><a href="#incidencias">Incidencias</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>¡Hola, estudiante!</h2>
+        <p>Accede a tus calificaciones y reporta incidencias fácilmente.</p>
+    </section>
+
+    <section id="calificaciones">
+        <h2>Calificaciones</h2>
+        <table>
+            <tr>
+                <th>Materia</th>
+                <th>Nota</th>
+            </tr>
+            <tr>
+                <td>Matemáticas</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Historia</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Inglés</td>
+                <td>9</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="incidencias">
+        <h2>Reportar Incidencia</h2>
+        <form id="incidenciaForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensaje"></p>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma Educativa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenido a la Plataforma Educativa</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#calificaciones">Calificaciones</a></li>
+                <li><a href="#incidencias">Incidencias</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>¡Hola, estudiante!</h2>
+        <p>Accede a tus calificaciones y reporta incidencias fácilmente.</p>
+    </section>
+
+    <section id="calificaciones">
+        <h2>Calificaciones</h2>
+        <table>
+            <tr>
+                <th>Materia</th>
+                <th>Nota</th>
+            </tr>
+            <tr>
+                <td>Matemáticas</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Historia</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Inglés</td>
+                <td>9</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="incidencias">
+        <h2>Reportar Incidencia</h2>
+        <form id="incidenciaForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensaje"></p>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
